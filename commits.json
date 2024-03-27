@@ -1,0 +1,35 @@
+{
+  "patterns": [
+    {
+      "startDate": "2023-11-01",
+      "endDate": "2024-02-24",
+      "minCommitsPerDay": 2,
+      "maxCommitsPerDay": 8,
+      "message": "Working on exciting features 🚀"
+    },
+    {
+      "startDate": "2024-02-25",
+      "endDate": "2024-03-31",
+      "minCommitsPerDay": 4,
+      "maxCommitsPerDay": 12,
+      "message": "Intense coding sprint 💻"
+    }
+  ],
+  "customPattern": {
+    "enabled": false,
+    "pattern": [
+      [0,1,1,1,0,0,0],
+      [1,0,0,0,1,0,0],
+      [1,0,0,0,1,0,0],
+      [1,0,0,0,1,0,0],
+      [0,1,1,1,0,0,0]
+    ]
+  },
+  "settings": {
+    "randomizeTime": true,
+    "timeRange": {
+      "start": "09:00",
+      "end": "22:00"
+    }
+  }
+} 

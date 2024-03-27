@@ -1,0 +1,22 @@
+{
+  "name": "gogreen",
+  "version": "1.0.0",
+  "description": "Create GitHub commits for any date to make your contribution graph look vibrant",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "github",
+    "contributions",
+    "git",
+    "automation"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "moment": "^2.29.4",
+    "simple-git": "^3.22.0",
+    "random": "^4.1.0"
+  }
+} 
